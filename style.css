@@ -1,0 +1,15 @@
+#CountLbl{
+    font-size: 200px;
+    display: block;
+    text-align: center;
+}
+
+.buttons{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+#MemLbl{
+    font-size: 75px;
+}
