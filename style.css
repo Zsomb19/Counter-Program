@@ -5,11 +5,78 @@
 }
 
 .buttons{
-    font-size: 25px;
-    display: block;
+    font-size: 35px; /* Increase the font size */
+    padding: 5px 10px; /* Add padding to increase the overall size of the button */
+    display: inline-block;
     text-align: center;
 }
 
 #MemLbl{
-    font-size: 75px;
+    font-size: 50px;
+}
+
+#part1{
+    position: fixed; /* Fix the position of the div */
+    left: 0; /* Position it at the left edge of the page */
+    top: 0; /* Position it at the top edge of the page */
+    bottom: 0; /* Stretch it to the bottom edge of the page */
+    width: 25%; /* Set the width of the div */
+    height: 100%;
+    float: left;
+    border-right: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#part2{
+   
+    margin-left: 25%;
+    margin-right: 75%;
+    width: 50%;
+    height: 100%;
+    float: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#part3{
+    position: fixed; /* Fix the position of the div */
+    right: 0; /* Position it at the left edge of the page */
+    top: 0; /* Position it at the top edge of the page */
+    bottom: 0; /* Stretch it to the bottom edge of the page */
+    width: 25%; /* Set the width of the div */
+    height: 100%;
+    float: right;
+    border-right: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#RngLbl{
+    font-size: 100px;
+    display: block;
+    text-align: center;
+}
+#RngInpLbl{
+    font-size: 25px;
+}
+
+#div3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 5px;
+    align-items: flex-start;
+}
+.RngInp{
+    width: 100px;   
+}
+
+#RngBtn{
+    margin: 5px;
 }

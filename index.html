@@ -8,34 +8,53 @@
 </head>
 <body>
 
-    <div>
+    <div id="part1" width="25%" height="100%" float="left">
         <p>
             <label id="MemLbl">Number stored in memory: </label>
         </p>
     
         <p class="buttons">
-            <button id="MemClrBtn">Clear memory</button>
-            <button id="MemBtn">Store in memory</button>
+            <button class="buttons" id="MemClrBtn">Clear memory</button><br><br>
+            <button class="buttons" id="MemBtn">Store in memory</button>
         </p>
     </div>
 
-    <div>
+    <div id="part2" width="50%" height="100%">
         <label id="CountLbl">0</label><br>
 
         <p class="buttons">
-            <button id="DecTenBtn">Decrease by 10</button>
-            <button id="DecBtn">Decrease</button>
-            <button id="ResBtn">Reset</button>
-            <button id="IncBtn">Increase</button>
-            <button id="IncTenBtn">Increase by 10</button>
+            <button class="buttons" id="DecHunBtn">-100</button>
+            <button class="buttons" id="DecTenBtn">-10</button>
+            <button class="buttons" id="DecBtn">-1</button>
+            <button class="buttons" id="ResBtn">Reset</button>
+            <button class="buttons" id="IncBtn">+1</button>
+            <button class="buttons" id="IncTenBtn">+10</button>
+            <button class="buttons" id="IncHunBtn">+100</button>
         </p>
 
         <p class="buttons">
-            <button id="AddMemBtn">Add number in memory to counter</button>
+            <button class="buttons" id="AddMemBtn">Add number in memory to counter</button><br><br>
+            <button class="buttons" id="AddRngBtn">Add the randomly generated number to counter</button>
         </p>
     </div>
 
-    
+    <div id="part3">
+        <label id="RngLbl"></label><br>
+        <p>
+            <label id="RngInpLbl">Enter min and max values for random number: </label><br><br>
+            <div id="div3">
+                <div class="input-group">
+                    <label>Min</label>
+                    <input type="number" id="RngInpMin" class="RngInp">
+                </div>
+                <div class="input-group">
+                    <label>Max</label>
+                    <input type="number" id="RngInpMax">
+                </div>
+            </div>
+        </p>
+        <button class="buttons" id="RngBtn">Generate random number</button>
+    </div>
 
 
     <script src="index.js"></script>
