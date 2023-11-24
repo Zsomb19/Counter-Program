@@ -71,3 +71,8 @@ document.getElementById("RngBtn").onclick = function(){
         counter += random;
         document.getElementById("CountLbl").innerHTML = counter;
     };   
+
+    document.getElementById("ClrMinMaxBtn").onclick = function(){
+        document.getElementById("RngInpMin").value = "";
+        document.getElementById("RngInpMax").value = "";
+    }
